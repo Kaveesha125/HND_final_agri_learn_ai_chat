@@ -28,7 +28,6 @@ uvicorn main:app --reload
 ````
 ## API Endpoints
 
-> [!NOTE]
 > Base URL: `http://localhost:8000`
 >
 > * **GET `http://localhost:8000/`** - Confirms that the service is running.
