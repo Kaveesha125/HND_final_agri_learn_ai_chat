@@ -1,10 +1,4 @@
 import google.generativeai as genai
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 SYSTEM_PROMPT = """
 You are Agri-Learn AI, designed to respond as concisely as possible, providing accurate, practical, and focused answers on agricultural topics for the Agri Roots Academy platform, expanding only when necessary.
